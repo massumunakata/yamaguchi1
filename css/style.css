@@ -1185,3 +1185,30 @@ h3 {
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+
+.info-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container-add,
+.container-map {
+    flex: 1 1 45%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .info-wrapper {
+        flex-direction: column;
+    }
+}
